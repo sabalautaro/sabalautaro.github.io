@@ -1,0 +1,17 @@
+h1{
+color: rgb(190, 91, 199);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-abstracto-diseno-poli_1048-8478.jpg?w=740&t=st=1668798864~exp=1668799464~hmac=82e04d04807b8b8fdc675e4d9a6db32c21b689e2f9db171fcfa140f5b876fbe2); size: 50cm;
+}
+.contenedor {
+width: 100%;
+max-width: 1000px;
+margin: auto;
+margin-top: 100px;
+}
+.contenedor img{
+    float: right;
+    display: flex;
+}
