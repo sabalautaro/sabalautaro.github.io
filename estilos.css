@@ -1,17 +1,43 @@
 h1{
-color: rgb(190, 91, 199);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgb(142, 109, 241);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 2px;
+text-align: center;
+padding-left: 200px;
 }
 body{
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-abstracto-diseno-poli_1048-8478.jpg?w=740&t=st=1668798864~exp=1668799464~hmac=82e04d04807b8b8fdc675e4d9a6db32c21b689e2f9db171fcfa140f5b876fbe2); size: 50cm;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-abstracto-diseno-poli_1048-8478.jpg?w=740&t=st=1668798864~exp=1668799464~hmac=82e04d04807b8b8fdc675e4d9a6db32c21b689e2f9db171fcfa140f5b876fbe2); size: 100cm; width: 900px; height: 1200px;
 }
 .contenedor {
-width: 100%;
-max-width: 1000px;
-margin: auto;
-margin-top: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    padding-left: 50px;
+   
 }
 .contenedor img{
     float: right;
     display: flex;
+    justify-content: right;
+    border:3px solid rgb(66, 5, 63);
+    border-radius: 10px;
+}
+p{
+color: beige;
+font-size:xx-large;
+font-style: italic;
+}
+h2{
+    color:crimson;
+
+}
+
+h3{
+background-color: rgb(49, 255, 186);
+padding: 10px;
+border-radius: 30px;
+width: 100px;
+
 }
