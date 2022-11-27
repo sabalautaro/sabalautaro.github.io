@@ -1,43 +1,72 @@
-h1{
-color: rgb(142, 109, 241);
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-padding-top: 2px;
-text-align: center;
-padding-left: 200px;
+.TITULO{
+color: rgb(0, 0, 0);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 400;
+font-size: x-large;
+font-style:normal ;
+letter-spacing: 1px;
 }
+
+.TITULO h1 {
+    text-align: center;
+padding: 5px;
+padding-top: 0%;
+}
+
+.TITULO h2{
+    text-align: left;
+    padding-left: 50px;
+}
+.TITULO img{
+    width: 80px;
+    height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 45%;
+  padding-right: 50%;
+  padding-top: 20px;
+  float: inline-end;
+}
+
+
+
+
+
 body{
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-abstracto-diseno-poli_1048-8478.jpg?w=740&t=st=1668798864~exp=1668799464~hmac=82e04d04807b8b8fdc675e4d9a6db32c21b689e2f9db171fcfa140f5b876fbe2); size: 100cm; width: 900px; height: 1200px;
+background-image:url(https://img.freepik.com/foto-gratis/fondo-abstracto-diseno-poli_1048-8478.jpg?w=740&t=st=1668798864~exp=1668799464~hmac=82e04d04807b8b8fdc675e4d9a6db32c21b689e2f9db171fcfa140f5b876fbe2)
 }
 .contenedor {
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    margin-top: 50px;
-    padding: 30px;
-    padding-left: 50px;
+   padding-left: 50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ letter-spacing: 1px;
    
 }
 .contenedor img{
-    float: right;
-    display: flex;
-    justify-content: right;
-    border:3px solid rgb(66, 5, 63);
-    border-radius: 10px;
+   width: 50rem;
+height: auto;
+margin: auto;
+display: block;
+float: right;
+border-radius: 70px;
+padding: 50px;
 }
 p{
-color: beige;
-font-size:xx-large;
-font-style: italic;
-}
-h2{
-    color:crimson;
+color: rgb(0, 0, 0);
+font-size:20px;
+width:300px;
 
 }
+.contenedor h2{
+    color:rgb(46, 0, 253);
+ text-shadow: 3px 3px 0px gray;
+}
 
-h3{
-background-color: rgb(49, 255, 186);
-padding: 10px;
+h3{ 
+    text-shadow: 3px 3px 0px gray;
+    box-shadow: 3px 3px 0px rgb(46, 46, 46);
+background-color: aqua;
+    padding: 10px;
 border-radius: 30px;
-width: 110px
+width: 130px
 
 }
